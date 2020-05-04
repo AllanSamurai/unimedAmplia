@@ -1,0 +1,20 @@
+{
+"companyName": "Allan Samurai Madeira",
+"productName": "Unimed Amplia",
+"productVersion": "1.0",
+"dataUrl": "unimedAmplia.data.unityweb",
+"wasmCodeUrl": "unimedAmplia.wasm.code.unityweb",
+"wasmFrameworkUrl": "unimedAmplia.wasm.framework.unityweb",
+"asmCodeUrl": "unimedAmplia.asm.code.unityweb",
+"asmMemoryUrl": "unimedAmplia.asm.memory.unityweb",
+"asmFrameworkUrl": "unimedAmplia.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.12f1"
+}
