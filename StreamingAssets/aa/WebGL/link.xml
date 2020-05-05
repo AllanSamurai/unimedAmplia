@@ -11,6 +11,9 @@
     <type fullname="UnityEngine.Sprite" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
     <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
+    <type fullname="UnityEngine.Mesh" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
   </assembly>
@@ -30,21 +33,24 @@
     <type fullname="UnityEngine.UI.Button" preserve="all" />
     <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
     <type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="all" />
-    <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.PhysicsRaycaster" preserve="all" />
     <type fullname="UnityEngine.UI.AspectRatioFitter" preserve="all" />
     <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
-    <type fullname="UnityEngine.EventSystems.PhysicsRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
     <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
   </assembly>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="LoadAddressablesScene" preserve="all" />
     <type fullname="OnEnableLoadAddressablesScene" preserve="all" />
-    <type fullname="HtmlDivOnClickOpenUrl" preserve="all" />
     <type fullname="OnPointerClick" preserve="all" />
+    <type fullname="HtmlDivOnClickOpenUrl" preserve="all" />
     <type fullname="OnEnableDisableEvent" preserve="all" />
     <type fullname="WebArCamera" preserve="all" />
     <type fullname="WebArMarker" preserve="all" />
     <type fullname="WebArManager" preserve="all" />
+    <type fullname="QuizResultadoManager" preserve="all" />
+    <type fullname="Resposta" preserve="all" />
+    <type fullname="QuizManager" preserve="all" />
     <type fullname="FuturismoManager" preserve="all" />
   </assembly>
   <assembly fullname="UnityEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
