@@ -49,6 +49,7 @@
     <type fullname="WebArMarker" preserve="all" />
     <type fullname="WebArManager" preserve="all" />
     <type fullname="QuizResultadoManager" preserve="all" />
+    <type fullname="TimelineRaManager" preserve="all" />
     <type fullname="Resposta" preserve="all" />
     <type fullname="QuizManager" preserve="all" />
     <type fullname="FuturismoManager" preserve="all" />
