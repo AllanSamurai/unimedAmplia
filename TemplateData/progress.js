@@ -12,6 +12,8 @@ function UnityProgress(gameInstance, progress) {
     gameInstance.progress.empty = document.getElementById("empty");
     gameInstance.progress.full = document.getElementById("full");
     gameInstance.progress.downloadInfo = document.getElementById('downloadInfo');
+    gameInstance.info = document.getElementById('info');
+    gameInstance.waitInit = document.getElementById('waitInit');
   }
   gameInstance.progress.full.style.width = (100 * progress / .9) + "%";
   gameInstance.progress.empty.style.width = (100 * (1 - progress / .9)) + "%";
@@ -21,7 +23,10 @@ function UnityProgress(gameInstance, progress) {
     gameInstance.progress.downloadInfo.innerHTML = Math.round( (progress / .9)*100) + "%";
   }
   if (progress >= .9) {
-    gameInstance.progress.downloadInfo.innerHTML = "Tudo pronto! Aguarde a inicialização.";
+    gameInstance.waitInit.style.display = "inherit";
+    gameInstance.info.style.display = "none";
+    gameInstance.progress.style.display = "none";
+    gameInstance.progress.downloadInfo.innerHTML = "inicializando";
   }
 
   if (progress == 1)

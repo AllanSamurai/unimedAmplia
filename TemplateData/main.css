@@ -11,9 +11,10 @@ canvas:focus{outline:0}
 .progress{top:40%;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);max-width:35vh;height:1.1vh}
 .progress .empty{float:right;background-color:#5b5c65;height:100%;width:100%;display:inline-block}
 .progress .full{height:100%;width:100%;display:inline-block;float:left;background-color:#ed1651}
-.progress .downloadInfo{position:absolute;font-size:.85vh;text-align:center;width:100%;color:#000}
+.progress .downloadInfo{position:absolute;font-size:.9vh;text-align:center;width:100%;color:#ffffff;font-family:Roboto,Arial,Helvetica,sans-serif;}
 .info{top:43%;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);height:1.1vh;max-width:35vh}
-.waitInfo{top:50%;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);height:3.5vh;display:none}
+.waitInit{top:41%;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);width:35vh;height:3.5vh;font-size:1.6vh;text-align:center;font-family:Roboto,Arial,Helvetica,sans-serif;color:#651080;display:none}
 .horizontal{display:block;width:100%;height:auto;left:50%;transform:translate(-50%,0)}
 .vertical{display:block;width:auto;height:100%;left:50%;transform:translate(-50%,0)}
+.progress .empty{width:100%}.progress .full{width:0%}
 /* .progress .empty{width:50%}.progress .full{width:50%} */
