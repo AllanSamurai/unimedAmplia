@@ -1,0 +1,12 @@
+body,html{margin:0;padding:0}
+html{height:100%;background-color:#333}
+body{margin:0;border:0;padding:0;height:100%;overflow:hidden;width:100%;-webkit-tap-highlight-color:transparent}
+.infoScreen{background-color:#fff0c7;height:100%;margin:0;z-index:1000}
+.infoScreen *{position:relative}
+.cursorPointer{cursor:pointer}
+.logo{top:3.02vh;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);height:3.71vh;width:100%;position:absolute}
+.cooperado{top:39.794vh;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);height:5.566vh;width:100%;position:absolute}
+.colaborador{top:50.439vh;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);height:5.566vh;width:100%;position:absolute}
+.rodape{bottom:0vh;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);height:7.324vh;width:100%;position:absolute;background-color:#008c50}
+.vertical{display:block;width:auto;height:100%;left:50%;transform:translate(-50%,0)}
+.verticalLeft{display:block;width:auto;height:100%;left:2.3vh}
